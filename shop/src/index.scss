@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        @apply bg-slate-900 font-body ;
+    }
+
+
+}
+@layer components{
+    .page-container{
+    max-width: 1280px ;
+    margin-left:180px ;
+    margin-right: 180px;
+    }
+    .ten:hover {
+        color:white;
+    }
+.men:hover{
+    background-color:rgb(255, 249, 254);
+    color:rgb(0, 0, 0);
+}
+button:hover{
+    background-color:rgb(255, 249, 254);
+    color:rgb(0, 0, 0);
+}
+h2:hover{
+    color: rgb(27, 136, 231);
+}
+.anh:hover{
+   height:250px;
+   
+    
+}
+
+.movie-list .swiper-slide{
+    width: 250px;
+    
+}
+
+}
